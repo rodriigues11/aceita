@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to right, #051E26, #034F56, #04909D, #073650);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+.painel {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.painel h1 {
+    color: white;
+}
+
+#sim {
+    height: 40px;
+    width: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: -80px;
+}
+
+#nao {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
